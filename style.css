@@ -1,0 +1,147 @@
+body
+{
+    color: white;
+}
+
+.containter
+{
+    background-color: #E1E1E1;
+    padding: 30px;
+    color: white;
+
+}
+.left
+{
+    width: 1015px;
+    height: 940px;
+  background-color: #203D3C;
+  margin: auto;
+}
+.header
+{
+    background-color: #067773;
+    color: white;
+    height: 60px;
+    padding-left: 40%;
+    padding-right: 30%;
+}
+.txt
+{
+    font-size: 40px;
+    margin: auto;
+    
+}
+
+.tabs
+{
+    display: inline-block; 
+    margin: auto;
+} 
+.tab1
+{
+    
+    border-radius: 10px 10px 10px 10px;
+    border-width: 2px;
+    box-shadow: 0px 0px 5px white;
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 50px
+
+    
+} 
+.tab2
+{
+    
+    border-radius: 10px 10px 10px 10px;
+    border-width: 2px;
+    box-shadow: 0px 0px 5px white;
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin: 50px;
+    
+} 
+label
+{
+    padding: 0 35% 5% 35%;
+    font-weight: 100;
+    font-size: 28px;
+    border-bottom: 2px #E1E1E1;
+    margin-bottom: 50px;
+}
+.value-input
+{
+    
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #8592a1;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 30px;
+    margin-left: 30px;
+    height: 28px;
+
+}
+
+.value-input::placeholder
+ {
+    color: #067773;
+ }
+
+ .btnn
+{
+    border-radius: 15px;
+    background-color: #067773;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    
+    min-width: max-content;
+    height: 30px;
+    /* box-shadow: 0px 0px 5px rgb(255, 255, 255); */
+    border-width: 0px;
+    -webkit-transition-duration: 0.5s; Safari 
+    transition-duration: 0.5s;
+    margin: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.btnn:hover
+{
+    background-color: #ffffff;
+    font-size: large;
+    color: #203D3C;
+    border-radius: 20px;
+    min-width: max-content;
+    height: 30px;
+    box-shadow: 0px 0px 5px #067773;
+    border-width: 0px;
+    cursor: pointer;
+} 
+.buttons
+{
+    margin: 30px;
+}
+
+.buttons2
+{
+    margin-left: 36%;
+}
+.cumulative
+{
+    padding-left: 30px
+}
+
+.cummulative-value
+{
+    background-color: #067773;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 30px;
+    margin: auto;
+   }
